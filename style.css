@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height:70px;
+    background-color:rgb(239, 36, 36);
+    width: 70px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    display: inline-block;
+}
+.header{
+    width:100%;
+    height:70px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    line-height: 70px;
+}
+.menu li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+#red{
+    color:red;
+}
+.menu li a:hover{
+        background-color:#e03d3d;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 10px;
+        transition: 0.3s;
+        transform: skew(5);
+
+}
+.content{
+    padding: 20px;
+}
+#button{
+    height: 50px;
+    width:200px;
+    color:#e03d3d;
+    display: inline-block;
+    border:none;
+    box-shadow: 10px 5px 20px grey;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.main{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+}
+.content{
+    position: absolute;
+    height: 500px;
+    width: 60%;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.bigText{
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.image{
+    position: absolute;
+    height: 500px;
+    width: 40%;
+    right:0px;
+    border: none;
+}
+.tab{
+    text-align: center;
+    line-height: 25px;
+    background-color: aliceblue;
+    border: 1px solid gray;
+    height: 25px;
+    width:200px;
+    margin-top: 50px;
+}
+.grey{
+    color: grey;
+    font-weight:200px;
+}
+span{
+    color:tomato;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+}
